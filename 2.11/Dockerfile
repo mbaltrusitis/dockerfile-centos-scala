@@ -4,7 +4,7 @@ MAINTAINER Matthew Baltrusitis "matthew@baltrusitis.com"
 ENV SCALA_VERSION 2.11.7
 ENV SBT_VERSION 0.13.9
 # Add bootstrap sbt script
-ADD sbt.sh /usr/local/bin/sbt
+ADD scripts/sbt.sh /usr/local/bin/sbt
 
 # Install Scala
 RUN set -x \
